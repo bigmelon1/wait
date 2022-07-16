@@ -1,0 +1,19 @@
+:root {
+    --linkbox_fontsize : 20px;
+    --linkbox-button_fontsize : 10px;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+.main_linkbox{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 40%;
+    border: 1px solid red;
+}
