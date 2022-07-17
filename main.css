@@ -1,19 +1,34 @@
 :root {
-    --linkbox_fontsize : 20px;
-    --linkbox-button_fontsize : 10px;
+  --linkbox_fontsize: 20px;
+  --linkbox-button_fontsize: 10px;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 
 
+.main_intro-head{
+  border-width: 2px 0px 2px 0px ;
+  border-style: solid; 
+  text-align: center; 
+  padding-top: 20px; 
+  padding-bottom: 20px;
+}
+.main_intro-head p{
+  font-size: 40px; 
+  margin: 0;
+}
 
-.main_linkbox{
-    width: 400px;
-    height: 300px;
-    background-color: white;
-    border-radius: 40%;
-    border: 1px solid red;
+.main_linkbox {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 40%;
+  border: 1px solid red;
+}
+.main_linkbox p{
+  font-size: var(--linkbox_fontsize)
+  
 }
